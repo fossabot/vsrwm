@@ -1,4 +1,6 @@
 # WaterMark-ScreenRecorder
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaheshpaliwal%2Fvsrwm.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaheshpaliwal%2Fvsrwm?ref=badge_shield)
+
 [![](https://jitpack.io/v/maheshpaliwal/vsrwm.svg)](https://jitpack.io/#maheshpaliwal/vsrwm)
 ### Android library for screen recording, video recording, capturing snapshots while recording, watermark and video compression while recording.
 ## To get a Git project into your build:
@@ -130,3 +132,7 @@ val bitmap:Bitmap=recorder.getBitmap(pathToFile)
     public override fun onDestroy() { super.onDestroy()
         recorder.destroyMediaProjection(mMediaProjection!!,mMediaProjectionCallback!!) }
 ````
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaheshpaliwal%2Fvsrwm.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaheshpaliwal%2Fvsrwm?ref=badge_large)
